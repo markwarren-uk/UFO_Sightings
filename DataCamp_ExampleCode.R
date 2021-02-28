@@ -1,5 +1,14 @@
-#THIS SI THE CODE FROM THE DATACAMP COURSE - USE THIS AS BASISI FOR DESIGNING UI ETC
+#THIS IS THE CODE FROM THE DATACAMP COURSE - USE THIS AS BASIS FOR DESIGNING UI ETC
 #WILL NEED TO DOWNLOAD AND EDIT DATA BEFORE APP WRITTEN
+
+# devtools::install_github("datadotworld/data.world-r", build_vignettes = TRUE)
+# 
+# saved_cfg <- data.world::save_config("YOUR<>API<>TOKEN")
+# data.world::set_config(saved_cfg)
+
+# vignette("quickstart", package = "data.world")
+# ?data.world
+
 
 
 #CHOOSING STATE AND DATE RANGE
