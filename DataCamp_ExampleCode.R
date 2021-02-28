@@ -9,7 +9,13 @@
 # vignette("quickstart", package = "data.world")
 # ?data.world
 
+library(data.world)
+library(tidyverse)
+# Aliens <- query(
+#     qry_sql("select * from `national-ufo-reporting-center-reports`"),
+#     dataset = "drwaz/nuforc_events")
 
+Aliens <- read_csv("https://query.data.world/s/kupja3avi2x7xdswrxssepmy7pdl7m")
 
 #CHOOSING STATE AND DATE RANGE
 ui <- fluidPage(
