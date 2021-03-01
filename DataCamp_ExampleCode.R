@@ -16,11 +16,22 @@ library(tidyverse)
 #     dataset = "drwaz/nuforc_events")
 
 Aliens <- read_csv("https://query.data.world/s/kupja3avi2x7xdswrxssepmy7pdl7m")
+glimpse(Aliens)
+length(unique(Aliens$State))
+#71 states - must be USA and Canada
+with(Aliens, table(State))
+
+sort(unique(Aliens$Year))
+table(Aliens$Year)
+
+Aliens <- Aliens %>% 
+    filter(Year >= 1960)
+
 
 #CHOOSING STATE AND DATE RANGE
 ui <- fluidPage(
     # CODE BELOW: Add a title
-    titlePanel("UFO Sightings"),  
+    titlePanel("Alien Sightings!"),  
     sidebarLayout(
         sidebarPanel(
             # CODE BELOW: One input to select a U.S. state
