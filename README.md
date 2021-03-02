@@ -8,3 +8,5 @@ R scripts for building a shiny app using NUFORC data from Data World
 28th Feb - check out shinyWidgets and shinyWidgetsGallery()
 
 2nd March - testing commit messages prior to Carl
+
+2nd March - update readme.md in github and pull in RStudio
